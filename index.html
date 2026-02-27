@@ -234,15 +234,14 @@ Implemented client-side form validation and interactive UI components to prototy
             </div>
         </div>
     </section>
-
-    <section id="contact" class="contact-section">
+<section id="contact" class="contact-section">
         <div class="container text-center">
             <h2 class="contact-title">Let's Build Something Awesome! 🚀</h2>
             <p class="contact-subtitle">
                 I'm currently seeking a remote software development internship. My inbox is always open!
             </p>
             
-            <form action="#" method="POST" class="contact-form" netlify>
+            <form name="contact" method="POST" data-netlify="true" class="contact-form">
                 <div class="form-group">
                     <label>Your Name</label>
                     <input type="text" name="name" placeholder="John Doe" required>
@@ -257,7 +256,7 @@ Implemented client-side form validation and interactive UI components to prototy
                 </div>
                 <button type="submit" class="btn btn-yellow w-full">Send Message ✉️</button>
             </form>
-        </div>
+            </div>
     </section>
 
     <footer class="site-footer">
